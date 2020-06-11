@@ -1,18 +1,10 @@
 # react.ts.template
-![](https://github.com/gowda/react.ts.template/workflows/lint-and-tests/badge.svg)
-![](https://github.com/gowda/react.ts.template/workflows/features/badge.svg)
+![](https://github.com/gowda/data-entry.react/workflows/lint-and-tests/badge.svg)
+![](https://github.com/gowda/data-entry.react/workflows/features/badge.svg)
 
-template for react application in typescript.
+Sample forms from around the web implemented in react
 
 ## Usage
-`react-app` is assumed as name of the application to be created.
-
-#### Clone the repository
-```bash
-$ git clone git@github.com:gowda/react.ts.template.git react-app
-$ cd react-app
-```
-
 #### Install dependencies
 ```bash
 $ npm install
@@ -20,7 +12,7 @@ $ npm install
 
 #### Run development server
 ```
-$ npm run server
+$ npm run start
 ```
 
 Development server listens at [http://localhost:3000](http://localhost:3000).
@@ -34,7 +26,7 @@ $ npm run lint
 [TSLint](https://palantir.github.io/tslint/) is configured to extend from
 [tslint:recommended](https://github.com/palantir/tslint/blob/master/src/configs/recommended.ts)
 
-Configuratin is in [tslint.json](tslint.json)
+Configuration is in [tslint.json](tslint.json)
 
 #### Run unit tests
 ```bash

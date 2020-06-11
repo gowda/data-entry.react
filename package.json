@@ -1,12 +1,13 @@
 {
-  "name": "react.ts.template",
+  "name": "data-entry.react",
   "version": "0.42.0",
-  "description": "react application template in typescript",
+  "description": "Sample forms from around the web implemented in react",
   "main": "src/index.ts",
+  "repository": "github:gowda/data-entry.react",
   "scripts": {
     "lint": "tslint --config tslint.json --project tsconfig.json",
     "build": "webpack --require ts-node/register --mode production --config webpack.production.ts",
-    "server": "webpack-dev-server --require ts-node/register --mode development --config webpack.development.ts",
+    "start": "webpack-dev-server --require ts-node/register --mode development --config webpack.development.ts",
     "features": "NODE_ENV='test' cucumber-js --require-module ts-node/register --require features/steps/**/*.ts features",
     "test": "jest"
   },
@@ -38,12 +39,6 @@
     "cucumber": "^6.0.5",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb": "^18.1.0",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-react-hooks": "^3.0.0",
     "html-webpack-plugin": "^4.2.0",
     "html-webpack-tags-plugin": "^2.0.17",
     "jest": "^25.4.0",
@@ -56,7 +51,7 @@
     "typescript-tslint-plugin": "^0.5.5",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3",
+    "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^4.2.2",
     "write-file-webpack-plugin": "^4.5.1"
   },
